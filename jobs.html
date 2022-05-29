@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,65 +9,209 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
 </head>
+
 <body style="text-align: center;">
     <div class="bar">
         <img id="websitelogo" src="https://cdn-icons-png.flaticon.com/512/1589/1589592.png" alt=""><br>
-        <input type="text" placeholder="Search Jobs" id="search">
+        <input type="text" placeholder="Search Jobs" id="search" onkeyup="search()">
     </div>
     <div class="listing">
-        <div id="marketing">
-            <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg" alt="">
-            
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg" alt="">   
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Google</p>
+            <p id="jobtype">Job Type: Marketing</p>
         </div>
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div> 
-        <div id="marketing">
-            <img id="jobslogo" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/06/shutterstock_268688447.jpg" alt="">
-        </div>  
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Amazon</p>
+            <p id="jobtype">Job Type: Marketing</p>
+        </div>
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2018/10/Ebay-Logo-1-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Ebay</p>
+            <p id="jobtype">Job Type: Marketing</p>
+        </div>
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/11/Expedia-Logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Expedia</p>
+            <p id="jobtype">Job Type: Marketing</p>
+        </div>
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Google</p>
+            <p id="jobtype">Job Type: Marketing</p>
+        </div>
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/11/Fiverr-Logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Fiverr</p>
+            <p id="jobtype">Job Type: Marketing</p>
+        </div>
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">GitHub</p>
+            <p id="jobtype">Job Type: Marketing</p>
+        </div>
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2020/08/GoDaddy-Logo-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">GoDaddy</p>
+            <p id="jobtype">Job Type: Marketing</p>
+        </div>
+        <div class="marketing job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2020/08/Imdb-logo-700x353.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">IMDb</p>
+            <p id="jobtype">Job Type: Marketing</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Google</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Amazon</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2018/10/Ebay-Logo-1-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Ebay</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/11/Expedia-Logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Expedia</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Google</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/11/Fiverr-Logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Fiverr</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">GitHub</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2020/08/GoDaddy-Logo-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">GoDaddy</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Project job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2020/08/Imdb-logo-700x353.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">IMDb</p>
+            <p id="jobtype">Job Type: Project Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Google</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Amazon</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2018/10/Ebay-Logo-1-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Ebay</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/11/Expedia-Logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Expedia</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2016/11/google-logo.jpg" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Google</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/11/Fiverr-Logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">Fiverr</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo-500x281.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">GitHub</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2020/08/GoDaddy-Logo-500x313.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">GoDaddy</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
+        <div class="Finanace job">
+            <div class="jobslogo">
+                <img id="jobslogo" src="https://1000logos.net/wp-content/uploads/2020/08/Imdb-logo-700x353.png" alt="">
+            </div>
+            <p id="heading" style="color: #646FD4; font-weight: 700; font-size: x-large;">IMDb</p>
+            <p id="jobtype">Job Type: Finance Management</p>
+        </div>
     </div>
+
+    <script src="jobs.js"></script>
 </body>
+
 </html>

@@ -179,7 +179,7 @@ input {
 
 #search{
     text-align: left;
-    width: auto;
+    width: 300px;
     padding-left: 15px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
@@ -188,7 +188,7 @@ input {
 }
 
 .bar{
-    background-color: #4540DB;
+    background-color: #82DBD8;
 }
 
 #websitelogo{
@@ -202,7 +202,7 @@ input {
     margin: 20px 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    grid-gap: 2rem;
+    grid-gap: 3rem;
 }
 
 .listing > div{
@@ -210,7 +210,19 @@ input {
     border-radius: 20px;
 }
 
-#jobslogo{
-    width: 20rem;
+.jobslogo{
+    width: auto;
     height: 10rem;
+    text-align: center;
+}
+
+#jobslogo{
+    margin-top: 10px;
+    width: 15rem;
+    height: auto;
+}
+
+#jobtype{
+    font-size: large;
+    font-family: 'Signika', sans-serif;
 }

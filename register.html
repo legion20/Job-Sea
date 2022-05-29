@@ -14,17 +14,18 @@
         <img src="https://cdn-icons-png.flaticon.com/512/1589/1589592.png" alt="">
         <p id="heading">Register</p>
         <p>Get a Job and see your Growth Now!</p>
-        <form id="register-form" action="">
+        <form id="register-form" action="" onsubmit="register()">
             <p>Ful Name: </p>
-            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Name" id="name" required>
             <p>Email: </p>
-            <input type="email" placeholder="mail@email.com">
+            <input type="email" placeholder="mail@email.com" id="email" required>
             <p>Password:</p>
-            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Password" id="password" required>
             <p>Confirm Password:</p>
-            <input type="password" placeholder="Confirm Password"><br>
+            <input type="password" placeholder="Confirm Password" id="cpassword" required><br>
             <button type="submit" class="btn btn-primary" id="logiin">Register</button>
         </form>
     </div>
+    <script src="logs.js"></script>
 </body>
 </html>

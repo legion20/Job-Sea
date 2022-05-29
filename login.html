@@ -14,13 +14,14 @@
         <img src="https://cdn-icons-png.flaticon.com/512/1589/1589592.png" alt="">
         <p id="heading">Login</p>
         <p>Get a Job and see your Growth Now!</p>
-        <form id="login-form" action="">
+        <form id="login-form" action="" onsubmit="verifySignIn()">
             <p>Email: </p>
-            <input type="email" placeholder="mail@email.com">
+            <input type="email" placeholder="mail@email.com" id="email">
             <p>Password:</p>
-            <input type="password" placeholder="Password"><br>
+            <input type="password" placeholder="Password" id="password"><br>
             <button type="submit" class="btn btn-primary" id="logiin">Login</button>
         </form>
     </div>
+    <script src="logs.js"></script>
 </body>
 </html>
