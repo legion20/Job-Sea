@@ -10,7 +10,7 @@ function register() {
 
 
         alert("Successfully registered. Please sign to start learning.");
-        location.reload("login.html");
+        location.replace("https://legion20.github.io/Job-Sea/login.html");
     } else {
         alert("Password does not match");
     }
@@ -28,7 +28,7 @@ function verifySignIn() {
 
 
     if (storedPassword !== null && storedPassword === password) {
-        location.replace("jobs.html");
+        location.replace("https://legion20.github.io/Job-Sea/jobs.html");
     } else {
         alert("Incorrect credentials or User does not exist");
     }
